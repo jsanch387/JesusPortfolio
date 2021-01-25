@@ -68,3 +68,44 @@ h2 {
     font-family: 'Montserrat', sans-serif;
     margin-top: 120px;
 }
+
+h1 {
+    padding-top: 50px;
+    margin-top: 100px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+}
+
+
+
+#skills-img {
+    height: 400px;
+    width: 410px;
+    margin: 10px 50px;
+    filter: brightness(170%);
+    border-radius: 20px;
+}
+
+.zoom {
+    transition: transform .2s;
+    width: 300px;
+    height: 450px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(.90);
+}
+
+.imgContainer {
+    float:left;
+    background-color: gray;
+}
+
+.section {
+    background-color: gray;
+}
+.to {
+    
+}
