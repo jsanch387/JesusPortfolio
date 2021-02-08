@@ -78,13 +78,13 @@ h1 {
 }
 
 
-
 #skills-img {
     height: 400px;
     width: 410px;
     margin: 10px 50px;
     filter: brightness(170%);
     border-radius: 20px;
+    
 }
 
 .zoom {
@@ -97,15 +97,20 @@ h1 {
 .zoom:hover {
     transform: scale(.90);
 }
+ .heading h1 {
+     font-family: 'Montserrat', sans-serif;
+     background-color: rgb(31, 31, 31);
+     margin-bottom: 0;
+ }
+.skills {
+    display: flex;
+    justify-content: center; background-color: rgb(31, 31, 31);
+}
+figcaption {
+     font-family:'Montserrat', sans-serif;
+     color:white;
+     text-align: center;
+     
+ }
 
-.imgContainer {
-    float:left;
-    background-color: gray;
-}
 
-.section {
-    background-color: gray;
-}
-.to {
-    
-}
