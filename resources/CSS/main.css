@@ -102,9 +102,15 @@ h1 {
      background-color: rgb(31, 31, 31);
      margin-bottom: 0;
  }
+
+ .heading-dark {
+    font-family: 'Montserrat', sans-serif;
+ }
 .skills {
+    flex-wrap: wrap;
     display: flex;
-    justify-content: center; background-color: rgb(31, 31, 31);
+    justify-content: center; 
+    background-color: rgb(31, 31, 31);
 }
 figcaption {
      font-family:'Montserrat', sans-serif;
@@ -112,5 +118,20 @@ figcaption {
      text-align: center;
      
  }
+
+ /* About me CSS */
+
+ .about-img {
+     width: 20%;
+     height: auto;
+     border-radius: 30px;
+ }
+
+.items {
+    display: inline-flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 
 
