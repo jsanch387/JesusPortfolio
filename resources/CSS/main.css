@@ -121,8 +121,8 @@ figcaption {
 
  /* About me CSS */
 
- .about-img {
-     width: 20%;
+#about-img {
+     width: 400px;
      height: auto;
      border-radius: 30px;
  }
@@ -133,5 +133,14 @@ figcaption {
     flex-wrap: wrap;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
-
+.text {
+    margin-left: 50px;
+    font-family:'Montserrat', sans-serif;
+}
